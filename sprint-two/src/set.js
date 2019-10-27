@@ -7,7 +7,6 @@ var Set = function() {
 var setPrototype = {};
 
 setPrototype.add = function(item) {
-  console.log(this._storage)
   return this._storage[item] = item;
 };
 
